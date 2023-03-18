@@ -1,0 +1,381 @@
+https://github.com/google/oss-fuzz
+
+https://owasp.org/www-project-security-knowledge-framework/
+
+https://drive.google.com/drive/folders/15vk_Iza9rN9R5v9iy3iiuU8KZFZesoZg
+
+---------------------------------
+
+Hi everyone, welcome to Day 2: Designing Well-Architected Frameworks in Two Weeks with Rohit Bhardwaj . We will get started shortly. Please see the related content widget to download the materials for class. We hope you enjoy the course!
+Karina L Presenter
+9:16AM
+KL
+The recording of today’s class will be available within 24 to 48 hours, here: https://learning.oreilly.com/live-events/designing-well-architected-frameworks-in-two-weeks/0636920080225/0636920080224/
+Karina L Presenter
+9:16AM
+Please be sure not to post any personal information to the group chat, such as your email address, because it is part of the recording. Also, be mindful of any information you decide to share while using it.
+We are not responsible for any links to third-party websites or resources, or for your contacts and interactions with third-parties that take place outside of our website or services.
+For those who are subject to Regulated Status, the chat feature should not be used. The audience may include customers, vendors or competitors of you or your employer. If you choose to take advantage of the interactive features available in this training – and we hope that you will -- you are responsible for any information you choose to share.
+Class has begun and you should be able to hear and see Rohit in the media player widget. If not, please try refreshing your browser. Chrome is the recommended browser. We also recommend that you disconnect from any VPN and close unnecessary browser tabs.
+Closed captioning is available in our live events! You can enable closed captioning in the Media Player: hover your mouse over the bottom right corner and you’ll see CC–click that to enable closed captioning.
+KL
+The links that Rohit is referring to are in your resource widget
+Karina L Presenter
+9:33AM
+VT
+I
+V T
+9:33AM
+JT
+I
+J T
+9:33AM
+RB
+tinyurl.com/DesigningWellArchitected
+Rohit B Presenter
+9:33AM
+RB
+https://github.com/rohitbhardwaj/DesigningWellArchitectedFrameworks
+Rohit B Presenter
+9:33AM
+UK
+Yes
+U K
+9:34AM
+KL
+i
+K L
+9:34AM
+response times.
+long running queries
+VT
+DB locks
+V T
+9:38AM
+VB
+Server not available 500
+V B
+9:38AM
+VT
+timeout
+V T
+9:39AM
+AL
+Network Latency
+A L
+9:39AM
+KL
+is slides being shared?though i am able to hear your voice, i dont see any sharing of slides being done.. can you please clarify ?
+K L
+9:39AM
+KL
+Please try refreshing your refreshing browser
+Karina L Presenter
+9:40AM
+we are able to see.
+VT
+I mean I am able to
+V T
+9:40AM
+VB
+Able to see and hear
+V B
+9:40AM
+KL
+If you experience any audio/visual issues please try refreshing your browser as this will usually correct the issue.
+Karina L Presenter
+9:40AM
+KL
+ 
+1
+thanks, after refreshing the browser,able to see slides being shared..
+K L
+9:42AM
+RB
+https://db-engines.com/en/ranking_categories
+Rohit B Presenter
+9:46AM
+VT
+Y
+V T
+9:46AM
+JT
+y
+J T
+9:46AM
+yes
+VT
+I
+V T
+9:56AM
+SN
+yep
+S N
+9:56AM
+JT
+I
+J T
+9:56AM
+VT
+no
+V T
+9:58AM
+JT
+No
+J T
+9:58AM
+VT
+C
+V T
+10:04AM
+JT
+check inventory first
+J T
+10:04AM
+KL
+c
+K L
+10:04AM
+I have a question Rohit. Caching inventory quantity makes sense to me, but how often is the cache refreshed particularly during times like black friday?
+JT
+Cool. Thanks!
+J T
+10:09AM
+RB
+https://try.redis.io/
+Rohit B Presenter
+10:16AM
+JT
+I
+J T
+10:17AM
+VT
+rate limit
+V T
+10:17AM
+RB
+https://try.redis.io/ https://redis.com/try-free/
+Rohit B Presenter
+10:25AM
+SS
+Redis vs MemCache , which one to choose where ??
+S S
+10:27AM
+How's Redis compared to ElasticSearch?
+VT
+yes
+V T
+10:33AM
+JT
+yes
+J T
+10:33AM
+SS
+Change Data Capture : please explain one example with flow
+S S
+10:34AM
+Enjoy your break. See you back here shortly.
+KL
+Rohit is back...you should be hearing and seeing him again.
+Karina L Presenter
+10:38AM
+JT
+Web assets?
+J T
+10:49AM
+VT
+edge
+V T
+10:49AM
+JS
+cache
+J S
+10:49AM
+VT
+caching static
+V T
+10:49AM
+JS
+cache of static data
+J S
+10:49AM
+SS
+Netflix cache whole movie those are hight demands
+S S
+10:50AM
+JS
+Mostly only static data or data which is used most often
+J S
+10:50AM
+KL
+CDN- should be used when you want to store a big files like video files nearer to the user and Redis for caching the static data on server
+K L
+10:52AM
+JT
+ClouldWatch alerts
+J T
+11:00AM
+VT
+no
+V T
+11:01AM
+JT
+yes, for the very expensive plan
+J T
+11:01AM
+yes
+KL
+oh ok
+K L
+11:01AM
+😱
+JT
+B
+J T
+11:13AM
+VT
+redis
+V T
+11:15AM
+Redis?
+would a composite city-name key not work?
+JT
+got it
+J T
+11:25AM
+VT
+y
+V T
+11:26AM
+JT
+yes
+J T
+11:26AM
+KL
+Going on a 5 minute break. Enjoy and see you back here soon.
+Karina L Presenter
+11:26AM
+Is Lua script execution always atomic?
+what are your thoughts on embedded Redis?
+it's a scripting language for Redis
+thanks
+Netflix
+CIDR
+VT
+number of ips
+V T
+11:45AM
+RB
+https://cidr.xyz/
+Rohit B Presenter
+11:45AM
+KL
+2 to the power of 16 address it can use
+K L
+11:45AM
+VT
+no change
+V T
+11:50AM
+JT
+eip is public
+J T
+11:50AM
+How we connect from my on prem DB with AWS DB
+SS
+In Micro-service, 2 side SSL is recommended ??
+S S
+12:03PM
+RB
+https://owasp.org/www-project-security-knowledge-framework/
+Rohit B Presenter
+12:08PM
+VT
+this is gr8
+V T
+12:10PM
+RB
+https://github.com/google/oss-fuzz
+Rohit B Presenter
+12:11PM
+RB
+https://www.mockaroo.com/help/scenarios
+Rohit B Presenter
+12:15PM
+VT
+I
+V T
+12:16PM
+JT
+I
+J T
+12:17PM
+stopped
+at the
+MP
+cloud watch ...
+M P
+12:20PM
+KL
+Please stand by
+Karina L Presenter
+12:21PM
+VB
+Still frozen after the browser refresh!
+V B
+12:21PM
+KL
+@VB, it was on Rohit's end
+Karina L Presenter
+12:21PM
+VB
+ 
+1
+Sure.. thanks! Working now
+V B
+12:22PM
+yes
+What is the best deployment strategy for a multi tenant application ??
+SS
+E.g : In multi tenant application, I have one application server but multiple DB (Based on tenants). How will I approach my deployment strategy ??
+S S
+12:31PM
+JT
+Fantastic session
+J T
+12:32PM
+VT
+Excellent Energetic session..
+V T
+12:34PM
+SS
+One of my best learning session I have ever
+S S
+12:34PM
+VB
+Thank you Rohit.. great sessions!
+V B
+12:34PM
+JT
+Thank you Rohit. Super informative.
+J T
+12:34PM
+Appreciate it!!
+VT
+Thanks
+V T
+12:35PM
+SS
+You are not accepting my connection request in linkedin
+S S
+12:35PM
+RB
+I will accept 🙂
+Rohit B Presenter
+12:35PM
+MP
+Do you have any resources of architecting machine learning based solution?
+M P
+12:35PM
+RB
+Thanks everyone
